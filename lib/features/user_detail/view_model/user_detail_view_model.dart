@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import '../../../constants/api_constants.dart';
 import '../../../services/api_service.dart';
 import '../../../services/storage_service.dart';
-import '../../user_list/model/post_model.dart';
+import '../model/post_model.dart';
 import '../../user_list/model/user_model.dart';
 
 enum UserDetailState { initial, loading, loaded, error }

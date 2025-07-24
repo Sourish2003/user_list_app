@@ -1,6 +1,6 @@
 import 'package:hive/hive.dart';
 
-import '../features/user_list/model/post_model.dart';
+import '../features/user_detail/model/post_model.dart';
 
 class StorageService {
   static const String bookmarksBox = 'bookmarks';

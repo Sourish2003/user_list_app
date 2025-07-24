@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../../services/storage_service.dart';
-import '../../user_list/model/post_model.dart';
+import '../../user_detail/model/post_model.dart';
 
 class BookmarksViewModel extends ChangeNotifier {
   List<Post> _bookmarks = [];
